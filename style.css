@@ -113,3 +113,22 @@
   height: 40px;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .aside {
+    display: flex;
+    width: 98%;
+    height: 35%;
+  }
+
+  .main {
+    display: flex;
+    width: 98%;
+    height: 35%;
+  }
+}
